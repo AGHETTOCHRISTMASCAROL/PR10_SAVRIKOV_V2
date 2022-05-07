@@ -8,16 +8,17 @@
     android:background="@color/light_yellow">
 
     <Button
+        android:id="@+id/GoOver"
         android:layout_width="351dp"
         android:layout_height="110dp"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:backgroundTint="#F3FFAB"
+        android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/img_1"
+        android:fontFamily="@font/roboto_bold"
         android:text="моё смарт-устройство"
-        android:fontFamily="@font/roboto_regular"
         android:textColor="@color/black"
-        android:textSize="7pt"/>
+        android:textSize="7pt" />
 
     <LinearLayout
         android:layout_width="351dp"
